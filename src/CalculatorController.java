@@ -1,8 +1,4 @@
-package Calculator;
-
 import javafx.fxml.FXML;
-
-import java.awt.*;
 
 public class CalculatorController
 {
@@ -27,6 +23,11 @@ public class CalculatorController
 	
 	@FXML public Button TextField textFSol;
 	@FXML public Button Textfield textFEqu;
+	
+	public void handle(ActionEvent button)
+	{
+	
+	}
 	//when number button is clicked
 	
 	//when operator button is clicked
