@@ -1,7 +1,12 @@
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 
 public class CalculatorController
 {
+	private String rawData;
+	
 	@FXML public Button buttonNum0;
 	@FXML public Button buttonNum1;
 	@FXML public Button buttonNum2;
@@ -17,23 +22,61 @@ public class CalculatorController
 	@FXML public Button buttonOpeSub;
 	@FXML public Button buttonOpeMul;
 	@FXML public Button buttonOpeQuo;
-	@FXML public Button buttonOpeDec;
+	
+	@FXML public Button buttonEqual;
 	
 	@FXML public Button buttonClean;
 	
-	@FXML public Button TextField textFSol;
-	@FXML public Button Textfield textFEqu;
+	@FXML public TextField textFSol;
 	
-	public void handle(ActionEvent button)
-	{
-	
-	}
 	//when number button is clicked
+	public void btnNumOnClick(ActionEvent btnNum)
+	{
+		Button btnObj = (Button)btnNum.getSource();
+		String btnStr = btnObj.getText();
+		textFSol.appendText(btnStr);
+	}
 	
 	//when operator button is clicked
+	public void btnOpeOnClick(ActionEvent btnOpe)
+	{
+		Button btnObj = (Button)btnOpe.getSource();
+		String btnStr = btnObj.getText();
+		
+		switch (btnStr)
+		{
+			case "+":
+				textFSol.appendText("+");
+				break;
+				
+			case "-":
+				textFSol.appendText("-");
+				break;
+				
+			case "×":
+				textFSol.appendText("×");
+				break;
+				
+			case "÷":
+				textFSol.appendText("÷");
+				break;
+		}
+	}
+	
 	
 	//when equal button is clicked
+	public void btnEqualOnClick()
+	{
+		CalculatorModel result = new CalculatorModel();
+		String numDisplay = result.result(rawData);
+		textFSol.setText(numDisplay);
+	}
 	
 	//when CE button is clicked
-	
+	public void btnCEOnClick()
+	{
+		CalculatorModel result = new CalculatorModel();
+		result.result("Clear!");
+		textFSol.setText(null);
+	}
 }
