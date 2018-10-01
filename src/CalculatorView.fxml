@@ -34,15 +34,15 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
             <children>
-                <Button fx:id="buttonNum7" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnOnClick" text="7">
+                <Button fx:id="buttonNum7" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnNumOnClick" text="7">
                     <GridPane.margin>
                         <Insets bottom="5.0" left="10.0" right="5.0" top="10.0" />
                     </GridPane.margin></Button>
-                <Button fx:id="buttonNum8" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnOnClick" text="8" GridPane.columnIndex="1">
+                <Button fx:id="buttonNum8" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnNumOnClick" text="8" GridPane.columnIndex="1">
                     <GridPane.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                     </GridPane.margin></Button>
-                <Button fx:id="buttonNum9" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnOnClick" text="9" GridPane.columnIndex="2">
+                <Button fx:id="buttonNum9" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnNumOnClick" text="9" GridPane.columnIndex="2">
                     <GridPane.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                     </GridPane.margin></Button>
@@ -50,15 +50,15 @@
                     <GridPane.margin>
                         <Insets bottom="5.0" left="5.0" right="10.0" top="10.0" />
                     </GridPane.margin></Button>
-                <Button fx:id="buttonNum4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnOnClick" text="4" GridPane.rowIndex="1">
+                <Button fx:id="buttonNum4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnNumOnClick" text="4" GridPane.rowIndex="1">
                     <GridPane.margin>
                         <Insets bottom="5.0" left="10.0" right="5.0" top="5.0" />
                     </GridPane.margin></Button>
-                <Button fx:id="buttonNum5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnOnClick" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                <Button fx:id="buttonNum5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnNumOnClick" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1">
                     <GridPane.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </GridPane.margin></Button>
-                <Button fx:id="buttonNum6" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnOnClick" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                <Button fx:id="buttonNum6" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnNumOnClick" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1">
                     <GridPane.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </GridPane.margin></Button>
@@ -66,15 +66,15 @@
                     <GridPane.margin>
                         <Insets bottom="5.0" left="5.0" right="10.0" top="5.0" />
                     </GridPane.margin></Button>
-                <Button fx:id="buttonNum1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnOnClick" text="1" GridPane.rowIndex="2">
+                <Button fx:id="buttonNum1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnNumOnClick" text="1" GridPane.rowIndex="2">
                     <GridPane.margin>
                         <Insets bottom="5.0" left="10.0" right="5.0" top="5.0" />
                     </GridPane.margin></Button>
-                <Button fx:id="buttonNum2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnOnClick" text="2" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                <Button fx:id="buttonNum2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnNumOnClick" text="2" GridPane.columnIndex="1" GridPane.rowIndex="2">
                     <GridPane.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </GridPane.margin></Button>
-                <Button fx:id="buttonNum3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnOnClick" text="3" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                <Button fx:id="buttonNum3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnNumOnClick" text="3" GridPane.columnIndex="2" GridPane.rowIndex="2">
                     <GridPane.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </GridPane.margin></Button>
@@ -86,7 +86,7 @@
                     <GridPane.margin>
                         <Insets bottom="10.0" left="10.0" right="5.0" top="5.0" />
                     </GridPane.margin></Button>
-                <Button fx:id="buttonNum0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnOnClick" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                <Button fx:id="buttonNum0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#btnNumOnClick" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3">
                     <GridPane.margin>
                         <Insets bottom="10.0" left="5.0" right="5.0" top="5.0" />
                     </GridPane.margin></Button>
